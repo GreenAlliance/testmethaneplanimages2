@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methane reduction action plan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Methane reduction action plan</h1>
+
+        <!-- Display the initial full thermometer -->
+        <div id="thermometer">
+            <img src="./images/thermometer_full.png" id="thermometer-img" alt="Thermometer">
+        </div>
+
+        <!-- Questions -->
+        <div class="question">
+            <p>Will you encourage a 10% reduction in meat eating by 2030?</p>
+            <button onclick="updateThermometer(5)">Yes</button>
+            <button onclick="updateThermometer(0)">No</button>
+        </div>
+
+        <div class="question">
+            <p>Will you support alternative protein development to be a cost-reducing ingredient in processed foods?</p>
+            <button onclick="updateThermometer(5)">Yes</button>
+            <button onclick="updateThermometer(0)">No</button>
+        </div>
+
+        <div class="question">
+            <p>Will you help more cows eat methane-reducing feed additives?</p>
+            <button onclick="updateThermometer(1)">Yes</button>
+            <button onclick="updateThermometer(0)">No</button>
+        </div>
+
+        <div class="question">
+            <p>Will you help more farmers acidify their slurry stores?</p>
+            <button onclick="updateThermometer(1
