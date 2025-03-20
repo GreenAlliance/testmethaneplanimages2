@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methane Reduction Action Plan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Methane Reduction Action Plan</h1>
+        <p>Answer the following questions to see how much methane reduction you have achieved!</p>
+
+        <!-- Container to load each question dynamically -->
+        <div id="question-container">
+            <!-- Question and answer options will be inserted here -->
+        </div>
+
+        <!-- Thermometer Image -->
+        <div id="thermometer-container">
+            <img id="thermometer" src="images/thermometer_empty.png" alt="Thermometer" />
+        </div>
+
+        <!-- Final Result Message -->
+        <div id="final-result" class="hidden">
+            <h2>Your Result</h2>
+            <p id="final-message"></p>
+            <p>Your total methane reduction: <span id="total-reduction"></span>%</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
